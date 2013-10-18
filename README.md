@@ -9,5 +9,10 @@ Get your contacts2.db (maybe contacts.db will work, dunno) file from
 
     /data/com.android.providers.contacts/databases/contacts2.db
 
-Replace the top two filepath lines with the appropriate definitions, and then just run the script (or copy and paste it into an irb session).  It will dump out a CSV with names and phone numbers.  Modify for additional fields as needed - I didn't need any others.
+Replace the top two filepath lines with the appropriate definitions,
+
+    output_filepath = "/sample/filepath"
+    path_to_contactsdb_file = "/sample/path/to/contacts2.db"
+
+and then just run the script (or copy and paste it into an irb session).  It will dump out a CSV with names and phone numbers.  Modify for additional fields as needed - I didn't need any others.
 
